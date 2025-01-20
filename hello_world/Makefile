@@ -9,4 +9,4 @@ vet: fmt
 	go vet ./...
 	
 build: vet 
-	go build
+	go build -o /home/tanner/repos/go-dojo/bin/hello_world
